@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Itim&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+:root{
+    --roxo-fraco: #cdb4dbff;
+    --rosa-fraco: #ffc8ddff;
+    --rosa-fraco-pink: #ffafccff;
+    --azul-fraco: #bde0feff;
+    --azul-fraco-blue: #a2d2ffff;
+    --fonte-titulo:"Dancing Script", cursive;
+    --fonte-texto:"Itim", cursive;
+}
+
+body{
+    background-color: var(--roxo-fraco);
+    font-family: var(--fonte-texto);
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--rosa-fraco);
+}
+
+
+.cabecalho-logo{
+    width: 18%;
+    border-radius: 100%;
+    padding: 1em;
+}
+
+.cabecalho-link{
+    text-decoration: nome;
+    color: var(--azul-fraco-blue);
+    font-size: 2em;
+    margin-right: 1em;
+}
+
+.cabecalho-link:hover{
+    color: var(--azul-fraco);
+    font-size: 1.9em;
+    transition: 0.3s;
+}
